@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativetLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context="com.example.android.monitoringdistrictssimplified.ChooseRoleActivity">
 
-    tools:context="com.example.android.monitoringdistrictssimplified.MainActivity">
-
-
-    <android.support.design.widget.AppBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-
-    </android.support.design.widget.AppBarLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -33,18 +17,18 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/login"
+                android:text="@string/english"
                 android:textSize="@dimen/sizeused"
-                android:id="@+id/login_button"/>
+                android:id="@+id/button_english"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/guest"
+                android:text="@string/hindi"
                 android:layout_marginTop="@dimen/padding"
                 android:textSize="@dimen/sizeused"
-                android:id="@+id/guest"/>
+                android:id="@+id/button_hindi"/>
         </LinearLayout>
     </RelativeLayout>
 
 
-</LinearLayout>
+</RelativetLayout>

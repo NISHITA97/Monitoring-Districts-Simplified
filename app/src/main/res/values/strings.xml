@@ -6,7 +6,15 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="submit">Submit</string>
-
+    <string name="login">LogIn</string>
+    <string name="guest">Guest</string>
+    <string name="district_name">District Name</string>
+    <string name="date_of_joining">Date Of Joining</string>
+    <string name="date_of_retirement">Date Of Retirement</string>
+    <string name="on_visit">On Visit</string>
+    <string name="sync">Sync Visit</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
