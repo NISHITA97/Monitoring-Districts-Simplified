@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.android.monitoringdistrictssimplified.MainActivity">
+    tools:context="com.example.android.monitoringdistrictssimplified.Activity.MainActivity">
 
 
     <android.support.design.widget.AppBarLayout
