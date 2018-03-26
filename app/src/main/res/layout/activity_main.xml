@@ -42,7 +42,7 @@
                 android:text="@string/guest"
                 android:layout_marginTop="@dimen/padding"
                 android:textSize="@dimen/sizeused"
-                android:id="@+id/guest"/>
+                android:id="@+id/guest_button"/>
         </LinearLayout>
     </RelativeLayout>
 

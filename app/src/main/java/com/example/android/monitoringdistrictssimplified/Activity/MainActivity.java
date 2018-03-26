@@ -29,6 +29,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(loginActivityIntent);
             }
         });
+
+        Button guest_button = findViewById(R.id.guest_button);
+        guest_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent guestViewIntent = new Intent(MainActivity.this,GuestViewActivity.class);
+                startActivity(guestViewIntent);
+            }
+        });
     }
 
     @Override

@@ -23,7 +23,9 @@
         </activity>
         <activity android:name=".Activity.ProfileActivity" />
         <activity android:name=".Activity.OnVisitActivity" />
-        <activity android:name=".Activity.LoginActivity"></activity>
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.GuestViewActivity" />
+        <activity android:name=".Activity.ProgrammeActivity"></activity>
     </application>
 
 </manifest>

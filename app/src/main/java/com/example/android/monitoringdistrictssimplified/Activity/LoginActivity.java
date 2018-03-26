@@ -40,7 +40,10 @@ public class LoginActivity extends AppCompatActivity {
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                login();
+
+                //login();
+                Intent toProfile = new Intent(LoginActivity.this, ProfileActivity.class);
+                startActivity(toProfile);
             }
         });
     }
@@ -65,7 +68,7 @@ public class LoginActivity extends AppCompatActivity {
                 String ans = response.body().get(0).getAns();
                 Log.wtf("on response", desig);
                 Log.wtf("on response", ans);
-                Toast.makeText(LoginActivity.this,"designation: " + desig + "  " + ansgit ,Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginActivity.this,"designation: " + desig + "  " + ans ,Toast.LENGTH_LONG).show();
                 if(ans.equals("success")) {
                     Intent toProfile = new Intent(LoginActivity.this, ProfileActivity.class);
                     startActivity(toProfile);
