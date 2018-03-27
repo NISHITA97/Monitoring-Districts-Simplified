@@ -13,6 +13,7 @@ import com.example.android.monitoringdistrictssimplified.R;
 
 public class MainActivity extends AppCompatActivity {
 
+    Integer varnew;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
