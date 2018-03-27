@@ -1,6 +1,5 @@
-package com.example.android.monitoringdistrictssimplified.Service;
-
-import com.example.android.monitoringdistrictssimplified.Model.LoginModel;
+package com.example.mansisharma.location6.Service;
+import com.example.mansisharma.location6.Model.LoginModel;
 
 import java.util.ArrayList;
 

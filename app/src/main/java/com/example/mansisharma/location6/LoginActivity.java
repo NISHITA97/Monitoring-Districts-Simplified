@@ -1,4 +1,4 @@
-package com.example.android.monitoringdistrictssimplified.Activity;
+package com.example.mansisharma.location6;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,10 +9,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.android.monitoringdistrictssimplified.Model.LoginModel;
-import com.example.android.monitoringdistrictssimplified.R;
-import com.example.android.monitoringdistrictssimplified.Service.RetroFitInstanceLogin;
-import com.example.android.monitoringdistrictssimplified.Service.getLoginDataService;
+import com.example.mansisharma.location6.Model.LoginModel;
+import com.example.mansisharma.location6.R;
+import com.example.mansisharma.location6.Service.RetroFitInstanceLogin;
+import com.example.mansisharma.location6.Service.getLoginDataService;
+
 
 import java.util.ArrayList;
 
@@ -58,6 +59,7 @@ public class LoginActivity extends AppCompatActivity {
 
         /*Call the method with parameter in the interface */
         Call<ArrayList<LoginModel>> call = service.getLocationList(uname,passwordString);
+        //Call<ArrayList<LoginModel>> call = service.getLocationList(uname,passwordString);
         Log.wtf("URL Called", call.request().url() + "");
 
         call.enqueue(new Callback<ArrayList<LoginModel>>() {
