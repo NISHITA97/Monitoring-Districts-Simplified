@@ -1,12 +1,13 @@
 package com.example.android.monitoringdistrictssimplified.Activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.android.monitoringdistrictssimplified.R;
+
 
 public class GuestViewActivity extends AppCompatActivity {
 
@@ -22,6 +23,13 @@ public class GuestViewActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent programmeActivity = new Intent(GuestViewActivity.this,ProgrammeActivity.class);
                 startActivity(programmeActivity);
+            }
+        });
+        button_view_map.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ma = new Intent(GuestViewActivity.this,MapsActivity.class);
+                startActivity(ma);
             }
         });
     }

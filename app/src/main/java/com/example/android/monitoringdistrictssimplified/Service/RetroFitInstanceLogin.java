@@ -17,7 +17,7 @@ public class RetroFitInstanceLogin {
         static String url2= "http://192.168.0.6:8080/mavenproject1/webapi/";
         public static Retrofit getRetrofitInstance() {
             if (retrofit == null) {
-                retrofit = new retrofit2.Retrofit.Builder()
+                retrofit = new Retrofit.Builder()
                         .baseUrl(url2)
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MonitoringDistrictsSimplified.iml" filepath="$PROJECT_DIR$/MonitoringDistrictsSimplified.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Shiv Kumar Aggarwal\AndroidStudioProjects\MonitoringDistrictsSimplified\location6.iml" filepath="C:\Users\Shiv Kumar Aggarwal\AndroidStudioProjects\MonitoringDistrictsSimplified\location6.iml" />
     </modules>
   </component>
 </project>

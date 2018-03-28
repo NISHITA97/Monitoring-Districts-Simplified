@@ -1,4 +1,4 @@
-package com.example.android.monitoringdistrictssimplified;
+package com.example.mansisharma.location6;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.android.monitoringdistrictssimplified", appContext.getPackageName());
+        assertEquals("com.example.mansisharma.location6", appContext.getPackageName());
     }
 }
