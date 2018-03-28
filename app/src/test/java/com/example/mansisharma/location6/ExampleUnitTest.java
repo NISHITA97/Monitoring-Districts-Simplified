@@ -1,4 +1,4 @@
-package com.example.android.monitoringdistrictssimplified;
+package com.example.mansisharma.location6;
 
 import org.junit.Test;
 

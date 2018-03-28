@@ -1,9 +1,7 @@
-package com.example.android.monitoringdistrictssimplified.Activity;
+package com.example.mansisharma.location6;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.android.monitoringdistrictssimplified.R;
+import android.support.v7.app.AppCompatActivity;
 
 public class ProgrammeActivity extends AppCompatActivity {
 

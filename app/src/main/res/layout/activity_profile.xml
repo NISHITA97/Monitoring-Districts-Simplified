@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.monitoringdistrictssimplified.Activity.ProfileActivity">
+    tools:context="com.example.mansisharma.location6.ProfileActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -107,6 +107,7 @@
         android:text="@string/sync"
         android:layout_marginRight="@dimen/padding"
         android:layout_marginBottom="@dimen/padding"
-        android:textSize="@dimen/sizeused" />
+        android:textSize="@dimen/sizeused"
+        android:layout_alignParentRight="true" />
 
 </RelativeLayout>

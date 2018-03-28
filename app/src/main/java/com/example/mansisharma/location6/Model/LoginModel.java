@@ -1,4 +1,4 @@
-package com.example.android.monitoringdistrictssimplified.Model;
+package com.example.mansisharma.location6.Model;
 
 import com.google.gson.annotations.SerializedName;
 

@@ -1,4 +1,4 @@
-package com.example.android.monitoringdistrictssimplified.Service;
+package com.example.mansisharma.location6.Service;
 
 import android.util.Log;
 
@@ -15,7 +15,7 @@ public class RetroFitInstanceLogin {
         static String url2= "http://192.168.0.3:8080/mavenproject1/webapi/";
         public static Retrofit getRetrofitInstance() {
             if (retrofit == null) {
-                retrofit = new retrofit2.Retrofit.Builder()
+                retrofit = new Retrofit.Builder()
                         .baseUrl(url2)
                         .addConverterFactory(GsonConverterFactory.create())
                         .build();
