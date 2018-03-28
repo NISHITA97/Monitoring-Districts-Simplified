@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.example.android.monitoringdistrictssimplified.Model.LoginModel;
 import com.example.android.monitoringdistrictssimplified.R;
 import com.example.android.monitoringdistrictssimplified.Service.RetroFitInstanceLogin;
-import com.example.android.monitoringdistrictssimplified.Service.getLoginDataService;
+import com.example.android.monitoringdistrictssimplified.Service.getDataService;
 
 import java.util.ArrayList;
 
@@ -54,7 +54,7 @@ public class LoginActivity extends AppCompatActivity {
         String passwordString = password.getText().toString();
         Log.wtf("password",passwordString);
         /*Create handle for the RetrofitInstance interface*/
-        getLoginDataService service = RetroFitInstanceLogin.getRetrofitInstance().create(getLoginDataService.class);
+        getDataService service = RetroFitInstanceLogin.getRetrofitInstance().create(getDataService.class);
 
         /*Call the method with parameter in the interface */
         Call<ArrayList<LoginModel>> call = service.getLocationList(uname,passwordString);
@@ -66,8 +66,6 @@ public class LoginActivity extends AppCompatActivity {
                 Log.wtf("response",response.body().toString());
                 String desig = response.body().get(0).getDesignation();
                 String ans = response.body().get(0).getAns();
-                Log.wtf("on response", desig);
-                Log.wtf("on response", ans);
                 Toast.makeText(LoginActivity.this,"designation: " + desig + "  " + ans ,Toast.LENGTH_LONG).show();
                 if(ans.equals("success")) {
                     Intent toProfile = new Intent(LoginActivity.this, ProfileActivity.class);
